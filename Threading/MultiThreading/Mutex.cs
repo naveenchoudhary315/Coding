@@ -10,7 +10,10 @@ namespace Threading.MultiThreading
     {
         public Mutex() { }
 
-        public Mutex(string name) { }
+        public void MutexTest00()
+        {
+        
+        }
 
                 
     }
