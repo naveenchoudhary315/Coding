@@ -1,2 +1,5 @@
-﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Hello, World!");
+﻿
+using Threading.TPL;
+//TaskSample.MultiParrallel();
+For.ForLoop();
+Console.Read();

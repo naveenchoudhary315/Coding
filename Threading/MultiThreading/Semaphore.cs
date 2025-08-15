@@ -9,27 +9,27 @@ namespace Threading.MultiThreading
     using System;
     using System.Threading;
 
-    class MutexDemo
+    class SemaphoreExample
     {
-        // Create a named mutex (if you want inter-process sync) or unnamed for in-process only
-        static Mutex mutex = new Mutex(false, "Global\\MyUniqueMutexName");
+        // Allow maximum 2 threads in the critical section at the same time
+        static Semaphore semaphore = new Semaphore(2, 2);
 
-     public   static void Main1(string[] args)
+        public static void SampleTest(string[] args)
         {
-            for (int i = 0; i < 3; i++)
+            for (int i = 1; i <= 5; i++)
             {
                 Thread t = new Thread(DoWork);
-                t.Name = $"Thread {i + 1}";
+                t.Name = $"Thread {i}";
                 t.Start();
             }
         }
 
-        static void DoWork()
+        private static void DoWork()
         {
-            Console.WriteLine($"{Thread.CurrentThread.Name} waiting to enter...");
+            Console.WriteLine($"{Thread.CurrentThread.Name} is waiting to enter...");
 
-            // Request ownership of the mutex
-            mutex.WaitOne();
+            // Wait until it's safe to enter
+            semaphore.WaitOne();
 
             try
             {
@@ -39,8 +39,8 @@ namespace Threading.MultiThreading
             }
             finally
             {
-                // Always release mutex in a finally block to avoid deadlocks
-                mutex.ReleaseMutex();
+                // Release semaphore slot
+                semaphore.Release();
             }
         }
     }
