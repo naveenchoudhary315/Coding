@@ -4,9 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace DataType.ValueType
+namespace Collections.Generic
 {
-    internal class NullableExample
+    internal class LinkList
     {
     }
 }

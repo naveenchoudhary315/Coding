@@ -8,6 +8,7 @@ namespace Collections.Generic
 {
     internal class Queue
     {
+        // Queue<T> → FIFO (First In, First Out)
         public void QueueTest() 
         {
             Queue<int> queue = new Queue<int>();

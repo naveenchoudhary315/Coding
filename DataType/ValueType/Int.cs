@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 namespace DataType.ValueType
 {
 
-    internal class IntExample
+    internal class Int
     {
         public void IntTest()
         {
