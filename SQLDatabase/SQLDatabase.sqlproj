@@ -59,4 +59,7 @@
     <Folder Include="Tables" />
     <Folder Include="Stored Procedure" />
   </ItemGroup>
+  <ItemGroup>
+    <Build Include="Script1.sql" />
+  </ItemGroup>
 </Project>
