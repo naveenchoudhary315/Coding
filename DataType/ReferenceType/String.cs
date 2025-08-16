@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace DataType.ValueType
+namespace DataType.ReferenceType
 {
     internal class String
     {

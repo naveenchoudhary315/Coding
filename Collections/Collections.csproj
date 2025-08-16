@@ -8,8 +8,8 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="BehaviourDesignPattern\" />
-    <Folder Include="StructuralDesignPattern\" />
+    <Folder Include="Concurrent\" />
+    <Folder Include="NonGeneric\" />
   </ItemGroup>
 
 </Project>

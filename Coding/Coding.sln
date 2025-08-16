@@ -33,6 +33,8 @@ Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "SQLDatabase", "..\SQLDataba
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DesignPattern", "..\DesignPattern\DesignPattern.csproj", "{E5C337D5-86C9-4FFD-90CF-A6C46ECDA51A}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Collections", "..\Collections\Collections.csproj", "{146D5D6C-E8BF-4A30-987C-673BF8283E43}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -87,6 +89,10 @@ Global
 		{E5C337D5-86C9-4FFD-90CF-A6C46ECDA51A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E5C337D5-86C9-4FFD-90CF-A6C46ECDA51A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E5C337D5-86C9-4FFD-90CF-A6C46ECDA51A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{146D5D6C-E8BF-4A30-987C-673BF8283E43}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{146D5D6C-E8BF-4A30-987C-673BF8283E43}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{146D5D6C-E8BF-4A30-987C-673BF8283E43}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{146D5D6C-E8BF-4A30-987C-673BF8283E43}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -99,6 +105,7 @@ Global
 		{C8FD14F5-984D-4DE3-9FE7-B3766391BE1E} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
 		{3C298C48-A6F6-4A87-A51A-E9EF1D78DAE2} = {B48DF071-0323-44FD-B3C9-2D8B353B6554}
 		{E5C337D5-86C9-4FFD-90CF-A6C46ECDA51A} = {7B5AF069-C953-4BFD-B294-1760430D0E5A}
+		{146D5D6C-E8BF-4A30-987C-673BF8283E43} = {7B5AF069-C953-4BFD-B294-1760430D0E5A}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {1814A45E-B660-4ABD-8A36-6CFEAFD16A64}
