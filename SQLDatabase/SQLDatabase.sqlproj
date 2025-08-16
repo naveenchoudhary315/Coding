@@ -60,6 +60,7 @@
     <Folder Include="Stored Procedure" />
   </ItemGroup>
   <ItemGroup>
-    <Build Include="Script1.sql" />
+    <None Include="TableSchema.sql" />
+    <None Include="InterviewQueries.sql" />
   </ItemGroup>
 </Project>
