@@ -80,6 +80,31 @@
             }
         }
 
+        internal int LinearSearch()
+        {
+            int[] input = { 2, 5, 7, 9, 1, 8 };
+            int number = 7;
+            for (int i = 0; i <= input.Length - 1; i++)
+            {
+                if (input[i] == number)
+                {
+                    return i;
+                }
 
+            }
+            return -1;
+        }
+
+        // 2 Pointer approach.
+        internal void ReverseArray()
+        {
+            int[] input = { 2, 5, 7, 9, 1, 8 };   // 8 1 9 7 5 2
+            for (int i = 0, j = input.Length - 1; i <= j; i++, j--)
+            {
+                int temp = input[i];
+                input[i] = input[j];
+                input[j] = temp;
+            }
+        }
     }
 }
