@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 17
-VisualStudioVersion = 17.14.36401.2
+# Visual Studio Version 18
+VisualStudioVersion = 18.5.11716.220 stable
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Coding", "Coding.csproj", "{B9441F65-FAE0-4E82-8B79-2927135349B2}"
 EndProject
@@ -38,6 +38,10 @@ EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NETFeatures", "..\NETFeatures\NETFeatures.csproj", "{4CB6B641-A690-4739-B3D5-1A6EF780D7AA}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Interviews", "..\Interviews\Interviews.csproj", "{63CD2910-0BA4-4F93-82D6-E72BB9391088}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SOLID Principles", "SOLID Principles", "{58B9C834-8A5B-4404-85AE-CFBCCB4FD375}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SOLID_Principle", "..\SOLID_Principle\SOLID_Principle.csproj", "{540DBB49-934D-4676-AD1D-F450AF67F583}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -105,6 +109,10 @@ Global
 		{63CD2910-0BA4-4F93-82D6-E72BB9391088}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{63CD2910-0BA4-4F93-82D6-E72BB9391088}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{63CD2910-0BA4-4F93-82D6-E72BB9391088}.Release|Any CPU.Build.0 = Release|Any CPU
+		{540DBB49-934D-4676-AD1D-F450AF67F583}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{540DBB49-934D-4676-AD1D-F450AF67F583}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{540DBB49-934D-4676-AD1D-F450AF67F583}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{540DBB49-934D-4676-AD1D-F450AF67F583}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -120,6 +128,8 @@ Global
 		{E5C337D5-86C9-4FFD-90CF-A6C46ECDA51A} = {7B5AF069-C953-4BFD-B294-1760430D0E5A}
 		{146D5D6C-E8BF-4A30-987C-673BF8283E43} = {7B5AF069-C953-4BFD-B294-1760430D0E5A}
 		{4CB6B641-A690-4739-B3D5-1A6EF780D7AA} = {7B5AF069-C953-4BFD-B294-1760430D0E5A}
+		{58B9C834-8A5B-4404-85AE-CFBCCB4FD375} = {7B5AF069-C953-4BFD-B294-1760430D0E5A}
+		{540DBB49-934D-4676-AD1D-F450AF67F583} = {58B9C834-8A5B-4404-85AE-CFBCCB4FD375}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {1814A45E-B660-4ABD-8A36-6CFEAFD16A64}
