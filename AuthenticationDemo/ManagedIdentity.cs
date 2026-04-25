@@ -17,7 +17,7 @@ namespace AuthenticationDemo
 
             // Create a credential that uses Managed Identity
             var credential = new DefaultAzureCredential();
-
+              
             // Use the credential to connect to Key Vault
             var client = new SecretClient(new Uri(keyVaultUri), credential);
 
