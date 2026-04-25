@@ -1,4 +1,5 @@
-﻿using System;
+﻿using LiskovSubsitionPrinciple_Problem;
+using System;
 using System.Collections.Generic;
 using System.Text;
 
@@ -61,6 +62,17 @@ namespace LiskovSubsitionPrinciple_Solution
         public void Process()
         {
             Console.WriteLine("No payment needed");
+        }
+    }
+    public class MainClass
+    {
+        //        Parent expects “Pay works”
+        //👉 Child breaks contract → LSP violated
+        public static void Main(string[] args)
+        {
+            IPayment payment = new CreditCardPayment();
+            payment.Pay(100);
+            // var payment = new NoPaymentRequired(); // Handle “free” scenario separately
         }
     }
 }
