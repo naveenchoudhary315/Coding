@@ -8,5 +8,12 @@ namespace Threading.TPL
 {
     internal class Fork
     {
+        public void Test()
+        {
+            Parallel.For(0, 10, i =>
+            {
+                Console.WriteLine(i);
+            });
+        }
     }
 }

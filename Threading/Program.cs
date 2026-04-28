@@ -1,5 +1,6 @@
 ﻿
 using Threading.TPL;
 //TaskSample.MultiParrallel();
-For.ForLoop();
+//For.ForLoop();
+AsyncAwait.Main();
 Console.Read();

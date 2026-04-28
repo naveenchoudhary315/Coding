@@ -8,7 +8,7 @@ namespace Threading.TPL
 {
     public static class TaskSample
     {
-         public   static void Test1()
+        public static void Test1()
         {
             Task t = Task.Run(() =>
             {
@@ -18,7 +18,7 @@ namespace Threading.TPL
 
             t.Wait(); // Wait until task finishes
 
-            Console.WriteLine( "Done........." );
+            Console.WriteLine("Done.........");
         }
 
 
