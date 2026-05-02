@@ -27,8 +27,6 @@ namespace Interviews
                 }
             }
             Console.WriteLine(input);
-
-
         }
 
         public static void FindPalidromeOfNumber()

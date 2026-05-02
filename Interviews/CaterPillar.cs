@@ -30,6 +30,7 @@ namespace Interviews
                   list.Add(item);
                 }
             }
+//            var result = data.Distinct().OrderBy(x => x);
         }
     
     }

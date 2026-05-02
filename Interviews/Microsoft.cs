@@ -9,13 +9,14 @@ namespace Interviews
     internal class Microsoft
     {
         public Employee GetListoDDepartments(List<Employee> employees, int findEmpId)
-        { 
-          
+        {
+        
              foreach (Employee employee in employees) 
              {
                 if(employee.id == findEmpId) { return employee; }
              }
             return null;
+            //    return departments.FirstOrDefault(d => d.lstEmp.Any(e => e.id == empId));
         }
 
         public void Merge2Arrays()
