@@ -11,12 +11,13 @@ using Interviews;
 //Chubb.SortAStringList();
 //var res = StringProblems.FindFactorialByRecursion(5);
 //StringProblems.FindLengthOfLastWord();
-LINQ.Empty_Range_Repeat();
-//for (int i = 0; i < 9; i++)
-//{
-//    Console.Write("{0} ", StringProblems.CreateFibonnaciSeriesByRecursive (i));
-//}
-ArrayProblems.BubbleSort();  
+//LINQ.Empty_Range_Repeat();
+////for (int i = 0; i < 9; i++)
+////{
+////    Console.Write("{0} ", StringProblems.CreateFibonnaciSeriesByRecursive (i));
+////}
+//ArrayProblems.BubbleSort(); 
 
+Deloitte.FindCommonElements(null, 11);
 Console.ReadKey();
 Console.ReadKey();

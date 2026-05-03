@@ -24,5 +24,19 @@ namespace Threading.TPL
             await Task.Delay(2000); // Simulate async work
             return "Data fetched successfully!";
         }
+
+        //Run Multiple Tasks in Parallel
+        public async Task<string> GetAllData()
+        {
+            var t1 = GetDataAsync();
+            var t2 = GetDataAsync();
+            var t3 = GetDataAsync();
+
+            await Task.WhenAll(t1, t2, t3);
+
+            return $"{t1.Result} {t2.Result} {t3.Result}";
+        }
+
+
     }
 }
