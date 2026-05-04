@@ -81,7 +81,7 @@ namespace Interviews
 
         public static void FindLetterCount()
         {
-            string input = "My name is king";
+            string input = "aaannbbccccddd"; // "My name is king";
             Dictionary<char,int> keyValuePairs = new Dictionary<char,int>();
 
             for (int i = 0; i <= input.Length - 1; i++)

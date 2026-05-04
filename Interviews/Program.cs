@@ -18,6 +18,10 @@ using Interviews;
 ////}
 //ArrayProblems.BubbleSort(); 
 
-Deloitte.FindCommonElements(null, 11);
+//Deloitte.FindCommonElements(null, 11);
+EPAM ePAM = new EPAM();
+//ePAM.LINQToFindProduct();
+StringProblems stringProblems = new StringProblems();
+StringProblems.FindLetterCount();   
 Console.ReadKey();
 Console.ReadKey();
