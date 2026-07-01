@@ -13,7 +13,7 @@ namespace Interviews
         
              foreach (Employee employee in employees) 
              {
-                if(employee.id == findEmpId) { return employee; }
+                if(employee.Empid == findEmpId) { return employee; }
              }
             return null;
             //    return departments.FirstOrDefault(d => d.lstEmp.Any(e => e.id == empId));
@@ -42,7 +42,7 @@ namespace Interviews
 
     public class Employee
     {
-        public int id;
+        public int Empid;
         public string name;
         public double salary;
      }

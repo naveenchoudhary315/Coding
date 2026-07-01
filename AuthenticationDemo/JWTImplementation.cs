@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace AuthenticationDemo
 {
-    internal class JWTImplementation
+    internal class JWTImplementation1
     {
     }
 }

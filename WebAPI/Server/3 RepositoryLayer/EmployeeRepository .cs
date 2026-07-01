@@ -1,7 +1,6 @@
-﻿using WebAPI.Server.Model;
-
-
-using Microsoft.EntityFrameworkCore;
+﻿using System.Data.Entity;
+using WebAPI.Server.Model;
+ 
 
 namespace WebAPI.Server._3_RepositoryLayer
 {
@@ -28,7 +27,7 @@ namespace WebAPI.Server._3_RepositoryLayer
         {
             _context.Employee.Add(employee);
 
-            await _context.SaveChangesAsync();
+            //await _context.SaveChangesAsync();
         }
     }
 }

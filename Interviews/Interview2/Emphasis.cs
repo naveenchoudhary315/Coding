@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace Interviews
 {
-    internal static class Emphasis
+    internal static class Emphasis1
     {
         //Sort string Naveen in ascending and decending order.
         public static void SortInput()

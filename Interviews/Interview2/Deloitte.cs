@@ -11,7 +11,7 @@ using System.Xml.Linq;
 
 namespace Interviews
 {
-    internal class Deloitte
+    internal class Deloitte2
     {
         //standard backtracking prints all 8 valid combinations: [1,2,8], [1,3,7], [1,4,6], [2,3,6], [2,9], [3,8], [4,7].
         public void CalculateCombinations()

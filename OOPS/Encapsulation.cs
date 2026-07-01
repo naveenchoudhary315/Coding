@@ -43,7 +43,7 @@ namespace Solution_with_Encapsulation
             var account = new BankAccount();
 
             // Now, not all can change Balance.
-            account.Balance = -10000; // Invalid
+            //account.Balance = -10000; // Invalid
         }
     }
 }

@@ -1,10 +1,11 @@
-﻿using Autofac;
+﻿
 using System;
 using System.Collections.Generic;
 using System.ComponentModel.Design;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using Microsoft.Azure.Cosmos.Fluent;
 using Microsoft.Extensions.DependencyInjection;
 
 namespace DependencyInjectionWithAddKeyedService
@@ -33,10 +34,10 @@ namespace DependencyInjectionWithAddKeyedService
 
         void RegisterServices()
         {
-            var builder = new ContainerBuilder();
+            //var builder = new ContainerBuilder();
 
-            builder.Services.AddKeyedTransient<IMessageService, EmailService>("email");
-            builder.Services.AddKeyedTransient<IMessageService, SmsService>("sms");
+            //builder.Services.AddKeyedTransient<IMessageService, EmailService>("email");
+            //builder.Services.AddKeyedTransient<IMessageService, SmsService>("sms");
         }
     }
 
