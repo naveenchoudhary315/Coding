@@ -6,11 +6,11 @@ using System.Threading.Tasks;
 
 namespace Interviews
 {
-    internal class Microsoft
+    internal class Microsoft1
     {
-        public Employee GetListoDDepartments(List<Employee> employees, int findEmpId)
+        public Employee1 GetListoDDepartments(List<Employee1> employees, int findEmpId)
         {
-            return employees.FirstOrDefault(emp => emp.id == findEmpId);
+            return employees.FirstOrDefault(emp => emp.Empid == findEmpId);
 
         }
 
@@ -19,13 +19,13 @@ namespace Interviews
 
     }
 
-    public class Employee
+    public class Employee1
     {
-        public int id;
+        public int Empid;
         public string name;
         public double salary;
     }
-    public class Department
+    public class Department1
     {
         public int id;
         public string dept_name;
